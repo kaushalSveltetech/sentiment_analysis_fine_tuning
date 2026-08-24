@@ -1,0 +1,23 @@
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints and outputs — too large for git, retrain locally instead
+sentiment_model/
+
+# Sample/scratch input files
+review.txt
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
