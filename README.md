@@ -2,12 +2,13 @@
 
 A complete, from-scratch fine-tuning project for binary sentiment classification on the full IMDB movie review dataset, using `distilbert-base-uncased`. Includes a production-style training script with train/evaluate/predict modes and an interactive Streamlit app for serving predictions.
 
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![Transformers](https://img.shields.io/badge/🤗%20transformers-fine--tuning-yellow)
 ![Streamlit](https://img.shields.io/badge/streamlit-app-ff4b4b)
 <!-- ![License](https://img.shields.io/badge/license-MIT-green) -->
 
 ---
+ls
 
 ## 📊 Results
 
@@ -61,8 +62,8 @@ kaushal/
 ### 1. Clone and set up the environment
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/kaushalSveltetech/sentiment_analysis_fine_tuning.git
+cd sentiment_analysis_fine_tuning
 python -m venv env
 source env/bin/activate        # Windows: env\Scripts\activate
 pip install -r requirements.txt
