@@ -8,7 +8,6 @@ A complete, from-scratch fine-tuning project for binary sentiment classification
 <!-- ![License](https://img.shields.io/badge/license-MIT-green) -->
 
 ---
-ls
 
 ## 📊 Results
 
@@ -83,7 +82,7 @@ This downloads and cleans the IMDB dataset, fine-tunes DistilBERT for 2 epochs, 
 streamlit run app.py
 ```
 
-Opens at `http://localhost:8501`. Paste a review (or try the built-in examples) and get an instant sentiment prediction with confidence scores.
+Opens at `http://localhost:8501`. Paste a review and get an instant sentiment prediction with confidence scores.
 
 ---
 
@@ -149,9 +148,8 @@ streamlit run app.py
 ```
 
 **Features:**
-- **Single review tab** — paste a review or pick a built-in example, get label + confidence + probability breakdown
+- **Single review tab** — paste a review, get label + confidence + probability breakdown
 - **Batch tab** — paste multiple reviews (one per line) or upload a `.txt` file, get a results table
-- Model loads once and is cached (`@st.cache_resource`) so predictions are fast after the first load
 - Runs on GPU automatically if available, otherwise CPU
 
 > The app expects a trained model at `sentiment_model/final/`. Run `python train_script.py --mode train` first if that directory doesn't exist yet.
