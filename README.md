@@ -1,6 +1,6 @@
 # 🎬 IMDB Sentiment Analysis — DistilBERT Fine-Tuning + Streamlit App
 
-A complete, from-scratch fine-tuning project for binary sentiment classification on the full IMDB movie review dataset, using `distilbert-base-uncased`. Includes a production-style training script with train/evaluate/predict modes and an interactive Streamlit app for serving predictions.
+A complete, from-scratch fine-tuning project for binary sentiment classification on the IMDB movie review dataset, using `distilbert-base-uncased`. Includes a production-style training script with train/evaluate/predict modes and an interactive Streamlit app for serving predictions.
 
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![Transformers](https://img.shields.io/badge/🤗%20transformers-fine--tuning-yellow)
